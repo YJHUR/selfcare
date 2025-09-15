@@ -1,13 +1,13 @@
 # Site Specific Configuration
-name: LightSpeed
-description: A simple Jekyll theme
-url: https://selfcare.github.io
-author: tajacks
-timezone: America/Toronto
-timezone_short: ET
+name: SelfCare Blog
+description: A personal blog about self-care and wellness
+url: https://yjhur.github.io/selfcare/
+author: 미듐레어
+timezone: Asia/Seoul
+timezone_short: KST
 
 # Keywords
-keywords: ['seo', 'key', 'words']
+keywords: ['셀프케어', '웰니스', '정신건강', '자기계발', '라이프스타일', '마음챙김', '개인성장', '명상', '힐링']
 
 # Analytics (Plausible requires sign-up)
 analytics:
@@ -24,8 +24,8 @@ sass:
 # Paginate
 pagination:
   enabled: true
-  # Value set low for demonstration purposes
-  per_page: 3
+  # Posts per page
+  per_page: 5
   sort_field: 'date'
   sort_reverse: true
 
@@ -33,8 +33,8 @@ pagination:
 autopages:
   enabled: true
   categories:
-    title: 'Posts in category :cat'
-    permalink: '/category/:cat'
+    title: ':에너지관리 카테고리의 포스트'
+    permalink: '/category/:energy'
     silent: false
 
 # Exclusions
