@@ -34,8 +34,8 @@ pagination:
 autopages:
   enabled: true
   categories:
-    title: ':에너지관리 카테고리의 포스트'
-    permalink: 'selfcare/category/:energy'
+    title: ':cat 카테고리의 포스트'
+    permalink: '/category/:cat'
     silent: false
 
 # Exclusions

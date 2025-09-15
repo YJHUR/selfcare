@@ -1,6 +1,6 @@
 - name: Posts
   link: /selfcare/posts
 - name: Categories
-  link: /selfcare/categories/
+  link: /selfcare/categories
 - name: About & Contact
-  link: /selfcare/
+  link: /selfcare
