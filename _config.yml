@@ -34,7 +34,7 @@ autopages:
   enabled: true
   categories:
     title: ':에너지관리 카테고리의 포스트'
-    permalink: '/category/:energy'
+    permalink: 'selfcare/category/:energy'
     silent: false
 
 # Exclusions
